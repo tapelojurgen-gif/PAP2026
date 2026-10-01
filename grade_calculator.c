@@ -6,7 +6,7 @@ int main(void)
     float test1, test2, assignment, total;
 
     printf("Enter student name: ");
-    scanf("%49s", studentName);
+    scanf("%s", studentName);
     printf("Enter Test 1 mark: ");
     scanf("%f", &test1);
     printf("Enter Test 2 mark: ");
